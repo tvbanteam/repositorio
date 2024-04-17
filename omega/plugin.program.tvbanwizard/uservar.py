@@ -16,7 +16,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 ADDONTITLE = '[COLOR azure][B]Tvban[/B][/COLOR] [COLOR dodgerblue][B]Omega[/B][/COLOR]'
 BUILDERNAME = 'JoseAndTEBA & AndTVban'
-EXCLUDES = [ADDON_ID, 'repository.Andtv-Nexus']
+EXCLUDES = [ADDON_ID, 'repository.andTVban']
 # Text File with build info in it.
 BUILDFILE = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/builds.txt'
 # How often you would like it to check for build updates in days
@@ -101,7 +101,7 @@ CONTACTFANART = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE = 'Yes'
 # Url to wizard version
-buildtvban = 'https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/buildtvban/builds.txt' 
+buildtvban = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/builds.txt' 
 #########################################################
 
 #########################################################
