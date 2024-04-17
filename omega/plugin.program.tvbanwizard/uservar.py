@@ -30,7 +30,7 @@ YOUTUBEFILE = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandtea
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE = 'https://raw.githubusercontent.com/tvbanteam/tvbandteam.github.io/master/andtv/wizard/Advanced.json'
+ADVANCEDFILE = 'https://raw.githubusercontent.com/tvbanteam/andtvbox.github.io/master/andtvban/wizard/Advanced.json'
 #########################################################
 
 #########################################################
