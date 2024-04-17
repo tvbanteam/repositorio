@@ -227,7 +227,7 @@
          <left>311</left>
          <height>100%</height>
          <width>1</width>
-         <colordiffuse>dimgray</colordiffuse>
+         <colordiffuse>cyan</colordiffuse>
          <aspectratio>stretch</aspectratio>
          <texture background="true">diffuse/gradient_seperator.png</texture>
      </control>
@@ -459,7 +459,7 @@
             </control>
 	    <control type="label">
 	       <label>$INFO[ListItem.Label]</label>
-               <shadowcolor>darkgrey</shadowcolor>
+               <shadowcolor>darkgrey</shadowcolor><!--green lime -->
                <textcolor>dimgrey</textcolor>
 	       <width>200</width> 
 	       <left>40</left>
@@ -481,7 +481,7 @@
                <label>$INFO[ListItem.Label]</label>
                <width>200</width>
 	       <shadowcolor>grey</shadowcolor>
-	       <textcolor>white</textcolor>
+	       <textcolor>white</textcolor> <!--green lime -->
 	       <left>40</left>
 	       <font>font_medium_bold</font>
             </control>
@@ -489,7 +489,7 @@
                 <left>240</left>
                 <width>6</width>
                 <control type="image">
-                    <texture colordiffuse="ffb400fb">common/white.png</texture> <!--green lime -->
+                    <texture colordiffuse="ff00fbee">common/white.png</texture> <!--green lime b400fb-->
                 </control>
             </control>
         </focusedlayout>
@@ -902,7 +902,7 @@
                 <width>6</width>
                 <visible>[![Control.HasFocus(3901) | Control.HasFocus(3902) | Control.HasFocus(3903) | Control.HasFocus(3904) | Control.HasFocus(300)] + [Window.IsVisible(Home) | [!Window.IsVisible(Home) + String.IsEqual(ListItem.Property(path),Window(Home).Property(MenuIconFocus))]] + Skin.HasSetting(IconOnlyMode)] | [[Control.HasFocus(300) | Control.HasFocus(302)] + !Skin.HasSetting(IconOnlyMode)]</visible>
                 <control type="image"> <!--Hightlight right focus icon-->
-                    <texture colordiffuse="ffb400fb">common/white.png</texture><!-- blueviolet green lime  -->
+                    <texture colordiffuse="ff00fbee">common/white.png</texture><!-- blueviolet green lime  ffb400fb-->
                 </control>
                 <control type="group">
                     <include>Home_Separator</include>
@@ -920,7 +920,7 @@
            <control type="image">
                   <visible>!Skin.HasSetting(DisableNetflixHomeSidemenuHide) + ![Control.HasFocus(3901) | Control.HasFocus(3902) | Control.HasFocus(3903) | Control.HasFocus(3904) | Control.HasFocus(300)] + [Window.IsVisible(Home) | [!Window.IsVisible(Home) + String.IsEqual(ListItem.Property(path),Window(Home).Property(MenuIconFocus))]]</visible>
                 <width>6</width>
-                <texture colordiffuse="ffb400fb">common/white.png</texture><!-- green lime-->
+                <texture colordiffuse="ff00fbee">common/white.png</texture><!-- green lime ffb400fb-->
            </control>
 
             <control type="image">
@@ -1078,7 +1078,7 @@
                     <left>71</left>
                     <height>100%</height>
                     <width>0.5</width>
-                    <colordiffuse>dimgray</colordiffuse>
+                    <colordiffuse>cyan</colordiffuse>
                     <aspectratio>stretch</aspectratio>
                     <texture background="true">diffuse/gradient_seperator.png</texture>
                 </control>
@@ -1107,7 +1107,7 @@
                     <left>71</left>
                     <height>100%</height>
                     <width>0.5</width>
-                    <colordiffuse>dimgray</colordiffuse>
+                    <colordiffuse>cyan</colordiffuse>
                     <aspectratio>stretch</aspectratio>
                     <texture background="true">diffuse/gradient_seperator.png</texture>
                 </control>

@@ -2,7 +2,7 @@
 <colors>
     <!-- Main  -->
 	<color name="main_bg_50">ff32CD32</color>
-	<color name="main_bg_45">ffbc10f1</color> <!--1b132cd -->
+	<color name="main_bg_45">ff00fbee</color> <!--1b132cdbc10f1 -->
     <!-- Main -->
     <color name="main_bg_100">ff181818</color>
     <color name="main_bg_70">b3181818</color>
@@ -75,7 +75,7 @@
 	<color name="magenta">ffff00ff</color>
 
 	<!--Confluence Compatibility-->
-	<color name="selected">ff6495ed </color>
+	<color name="selected">ff6495ed</color>
 	<color name="grey2">FF999999</color>
 	<color name="grey3">FF505050</color>
 	<color name="invalid">FFFF0000</color>

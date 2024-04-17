@@ -6177,18 +6177,18 @@
         </animation>
         <control type="group">
         <control type="label">
-          <top>10</top>
+          <top>2</top>
           <right>70</right>
           <width>80</width>
           <height>60</height>
           <font>font_tiny_bold</font>
           <align>left</align>
-          <textcolor>ffbc10f1</textcolor> <!--white lime76f110   -->
+          <textcolor>ff00fbee</textcolor> <!--white lime76f110   -->
           <label>[B]$INFO[Weather.Temperature][/B]</label>
           <visible>Weather.IsFetched</visible>
         </control>
           <control type="image">
-	    <top>5</top>
+	    <top>-4</top>
             <right>155</right>
             <width>70</width>
             <height>70</height>
@@ -6243,14 +6243,14 @@
         </control>-->
 		<control type="label">
           <right>230</right>
-          <top>-10</top>
+          <top>-17</top>
           <width>1000</width>
           <height>97</height>
           <font>font_heading_date</font>
           <align>right</align>
           <alignx>right</alignx>
           <textcolor>white</textcolor>
-          <label>[B]$INFO[System.Time(hh:mm)][COLOR ffbc10f1] | [/COLOR]$INFO[System.Date(d.m.yyyy)][/B]</label> <!-- lime76f110 dodgerblue -->
+          <label>[B]$INFO[System.Time(hh:mm)][COLOR ff00fbee] | [/COLOR]$INFO[System.Date(d.m.yyyy)][/B]</label> <!-- lime76f110 dodgerblue -->
           <animation effect="fade" start="100" end="0" time="200" condition="Window.IsActive(extendedprogressdialog)">Conditional</animation>
         </control>
       <control type="grouplist">
@@ -8621,7 +8621,7 @@
         <label>TVBAN BUILD</label>
         <align>left</align>
         <font>font_tiny_bold</font>
-        <textcolor>ffbc10f1</textcolor>
+        <textcolor>ff00fbee</textcolor>
       </control>
       <control type="list" id="9001">
         <onleft condition="Window.IsVisible(Home)">300</onleft>
@@ -8681,7 +8681,7 @@
         <fadetime>0</fadetime>
 	    <texture border="9" flipy="true" flipx="false">common/white.png</texture>
         <!-- <bordertexture colordiffuse="$VAR[ColorHighlight]">common/white.png</bordertexture> -->
-		<bordertexture colordiffuse="FFbc10f1">common/white.png</bordertexture> <!-- lime 76f110 -->
+		<bordertexture colordiffuse="FF00fbee">common/white.png</bordertexture> <!-- lime 76f110 -->
         <bordersize>9</bordersize>
         <aspectratio>escale</aspectratio>
 	        </control>
@@ -8717,17 +8717,17 @@
           </item>
           <item>
 		    <label>Builds</label>
-            <onclick>ActivateWindow(Programs,"plugin://plugin.program.andtvban/?mode=builds",return)</onclick>
+            <onclick>ActivateWindow(Programs,"plugin://plugin.program.tvbanwizard/?mode=builds",return)</onclick>
             <thumb>special://skin/extras/icons/andtvbuil.png</thumb>
           </item>
           <item>
             <label>Mantenimiento</label>
-            <onclick>ActivateWindow(Programs,"plugin://plugin.program.andtvban/?mode=maint",return)</onclick>
+            <onclick>ActivateWindow(Programs,"plugin://plugin.program.tvbanwizard/?mode=maint",return)</onclick>
             <thumb>special://skin/extras/icons/andtvmant.png</thumb>			
           </item>
           <item>
             <label>Gestionar Buffer</label>
-            <onclick>ActivateWindow(Programs,"plugin://plugin.program.andtvban/?mode=advanced_settings&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Fandtv%2Fandtv.github.io%2Fmaster%2Ftvban%2Fwizard%2Fxml%2FAdvance-Nexus.json",return)</onclick>
+            <onclick>ActivateWindow(Programs,"plugin://plugin.program.tvbanwizard/?mode=advanced_settings&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Fandtv%2Fandtv.github.io%2Fmaster%2Ftvban%2Fwizard%2Fxml%2FAdvance-Nexus.json",return)</onclick>
             <thumb>special://skin/extras/icons/hourglass2.png</thumb>
           </item>		  
           <item>
@@ -8742,7 +8742,7 @@
 		   <item>
 		   <label>Archivos - Log</label>
 		   <thumb>special://skin/extras/icons/log.png</thumb>
-		   <onclick>ActivateWindow(Programs,"plugin://plugin.program.andtvban/?mode=maint&amp;name=logging",return)</onclick>
+		   <onclick>ActivateWindow(Programs,"plugin://plugin.program.tvbanwizard/?mode=maint&amp;name=logging",return)</onclick>
 		 </item>
         </content>
       </control>
@@ -8888,7 +8888,7 @@
           </item>
           <item>
 		    <label>Test Velocidad</label>
-            <onclick>ActivateWindow(Programs,"plugin://plugin.program.andtvban/?mode=speedtest",return)</onclick>
+            <onclick>ActivateWindow(Programs,"plugin://plugin.program.tvbanwizard/?mode=speedtest",return)</onclick>
             <thumb>special://skin/extras/icons/timer.png</thumb>         
           </item>
        </content>

@@ -292,7 +292,7 @@
                         <control type="label">
                             <width>auto</width>
                             <font>font_small</font>
-                            <textcolor>lime</textcolor><!-- $VAR[ColorHighlight] dodgerblue-->
+                            <textcolor>ff00fbee</textcolor><!-- $VAR[ColorHighlight] limedodgerblue-->
                             <label>[B]  |  [/B]</label>
                             <visible>Player.HasMedia</visible>
                             <visible>![Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml) | Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) | Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(DialogMusicInfo.xml) | Window.IsVisible(DialogAddonInfo.xml)]</visible>
@@ -388,7 +388,7 @@
                             <visible>!Control.HasFocus(60)</visible>
                             <width>auto</width>
                             <font>font_small</font>
-                            <textcolor>lime</textcolor><!-- main_fg_100 dodgerblue-->
+                            <textcolor>ff00fbee</textcolor><!-- main_fg_100 dodgerblue-->
                             <label>[B]  |  [/B]</label>
                             <visible>!String.IsEmpty(Weather.Temperature)</visible>
                             <visible>Weather.IsFetched</visible>
@@ -412,7 +412,7 @@
                             <visible>Control.HasFocus(60)</visible>
                             <width>auto</width>
                             <font>font_small</font>
-                            <textcolor>lime</textcolor><!-- $VAR[ColorHighlight] dodgerblue-->
+                            <textcolor>ff00fbee</textcolor><!-- $VAR[ColorHighlight] dodgerblue-->
                             <label>[B]  |  [/B]</label>
                         </control>
                         <control type="label">
@@ -952,7 +952,7 @@
                         <control type="label">
                             <width>auto</width>
                             <font>font_small</font>
-                            <textcolor>lime</textcolor><!-- $VAR[ColorHighlight] dodgerblue-->
+                            <textcolor>ff00fbee</textcolor><!-- $VAR[ColorHighlight] dodgerblue-->
                             <label>[B]  |  [/B]</label>
                             <visible>!String.IsEmpty(Weather.Temperature)</visible>
                             <visible>Weather.IsFetched</visible>
