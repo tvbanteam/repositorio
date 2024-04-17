@@ -1226,7 +1226,7 @@ provider-name="jurialmunkey">
             <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
         </dir>
-        <dir minversion="21.0" maxversion="21.9.9">
+        <dir minversion="20.0" maxversion="21.9.9">
             <info compressed="false">https://raw.githubusercontent.com/tvbandteam/repositorio.tvbandteam/master/omega/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/tvbandteam/repositorio.tvbandteam/master/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/tvbandteam/repositorio.tvbandteam/master/omega/zips</datadir>
