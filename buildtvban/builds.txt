@@ -28,11 +28,11 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR blueviolet]NEXUS[/B][/COLOR] p
 
 name="TVBan Windows"
 version="1.0"
-url="https://github.com/andtvban/repositorio.andtvban/releases/download/1.0/B.Tvban_Windows.zip"
+url="https://github.com/tvbanteam/repositorio.tvbandteam/releases/download/1.0/B.TVBAN-WINDOWS.zip"
 minor="http://"
 gui="http://"
 kodi="21.0"
-theme="https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/buildfiles/andtv/themes_Windows.txt"
+theme="https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/andtv/themes_Windows.txt"
 icon="https://andtv.github.io/tvban/wizard/wizardFI/ICBuild.jpg"
 fanart="https://andtv.github.io/tvban/wizard/wizardFI/FABuild.jpg"
 preview="http://"
