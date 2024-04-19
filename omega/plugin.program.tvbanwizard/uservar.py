@@ -65,7 +65,8 @@ SPACER = '<->'
 #COLOR1 = 'limegreen'
 #COLOR1 = 'blueviolet'
 #COLOR1 = 'orchid'ndigo
-COLOR1 = 'darkorchid'
+#COLOR1 = 'darkorchid'
+COLOR1  = 'orangered'
 COLOR2 = 'white'
 COLOR3 = 'dodgerblue'
 COLOR4 = 'turquoise'
@@ -101,7 +102,7 @@ CONTACTFANART = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE = 'Yes'
 # Url to wizard version
-buildtvban = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/builds.txt' 
+buildtvban = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/buildsandtv.txt' 
 #########################################################
 
 #########################################################
