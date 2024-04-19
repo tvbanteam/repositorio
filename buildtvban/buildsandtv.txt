@@ -1,3 +1,4 @@
+#TVBAN
 name="TVBan ARM"
 version="1.0"
 url="https://github.com/andtvban/repositorio.andtvban/releases/download/1.0/B.Tvban_ARM.zip"
