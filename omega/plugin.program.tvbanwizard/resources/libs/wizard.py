@@ -143,8 +143,8 @@ class Wizard:
 
                 from resources.libs.gui.build_menu import BuildMenu
                 themecount = BuildMenu().theme_count(name)
-                
-                if themecount > 0: #99 
+
+                if themecount > 99:
                     self.theme(name)
 
                 db.addon_database(CONFIG.ADDON_ID, 1)
@@ -221,7 +221,7 @@ class Wizard:
                                '[COLOR {0}]Corrección Gui:[/COLOR] [COLOR gold]Cancelado![/COLOR]'.format(CONFIG.COLOR2))
 
     def theme(self, name, theme='', over=False):
-        installtheme = False #True
+        installtheme = True
 
         if not theme:
             themefile = check.check_build(name, 'theme')
@@ -296,7 +296,7 @@ class Wizard:
 
             if test1:
                 skin.look_and_feel_data('save')
-                #xbmc.log('test1= ' + str(test1), xbmc.LOGINFO)cyan
+                xbmc.log('test1= ' + str(test1), xbmc.LOGINFO)
                 swap = skin.skin_to_default('Theme Install')
 
                 if not swap:
@@ -311,28 +311,28 @@ class Wizard:
             logging.log('INSTALADO {0}: [ERRORES:{1}]'.format(percent, errors))
             self.dialogProgress.close()
 
-            db.force_check_updates(over=True) #tvba
+            #db.force_check_updates(over=True)
             installed = db.grab_addons(lib)
             db.addon_database(installed, 1, True)
 
-            #self.dialog.ok(CONFIG.ADDONTITLE, "[COLOR {0}][B]Para guardar los cambios, ahora necesita Forzar el Cierre de Kodi.[/B] \n\nPresione [B]OK[/B] para Forzar el Cierre de Kodi.[/COLOR]".format(CONFIG.COLOR2))
-            #tools.kill_kodi(over=True)
+            self.dialog.ok(CONFIG.ADDONTITLE, "[COLOR {0}][B]Para guardar los cambios, ahora necesita Forzar el Cierre de Kodi.[/B] \n\nPresione [B]OK[/B] para Forzar el Cierre de Kodi.[/COLOR]".format(CONFIG.COLOR2))
+            tools.kill_kodi(over=True)
             
             if test2:
                 skin.look_and_feel_data('save')
-                #xbmc.log('test2= ' + str(test2), xbmc.LOGINFO)
+                xbmc.log('test2= ' + str(test2), xbmc.LOGINFO)
                 skin.skin_to_default("Theme Install")
                 gotoskin = CONFIG.get_setting('defaultskin')
                 skin.switch_to_skin(gotoskin, "Theme Installer")
                 skin.look_and_feel_data('restore')
             elif test1:
-                skin.look_and_feel_data('save')
-                skin.skin_to_default("Theme Install") 
+                #skin.look_and_feel_data('save')
+                #skin.skin_to_default("Theme Install")
                 gotoskin = CONFIG.get_setting('default.skin')
                 skin.switch_to_skin(gotoskin, "Theme Installer")
                 skin.look_and_feel_data('restore')
-                #if xbmc.getCondVisibility("Window.isVisible(yesnodialog)"):
-                #	xbmc.executebuiltin('SendClick(yesnodialog, 11)')
+                if xbmc.getCondVisibility("Window.isVisible(yesnodialog)"):
+                	xbmc.executebuiltin('SendClick(yesnodialog, 11)')
             else:
                 xbmc.executebuiltin("ReloadSkin()")
                 xbmc.sleep(1000)

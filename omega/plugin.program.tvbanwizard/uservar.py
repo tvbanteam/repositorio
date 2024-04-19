@@ -18,7 +18,7 @@ ADDONTITLE = '[COLOR azure][B]Tvban[/B][/COLOR] [COLOR dodgerblue][B]Omega[/B][/
 BUILDERNAME = 'JoseAndTEBA & AndTVban'
 EXCLUDES = [ADDON_ID, 'repository.andTVban']
 # Text File with build info in it.
-BUILDFILE = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/buildsandtv.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -65,8 +65,7 @@ SPACER = '<->'
 #COLOR1 = 'limegreen'
 #COLOR1 = 'blueviolet'
 #COLOR1 = 'orchid'ndigo
-#COLOR1 = 'darkorchid'
-COLOR1  = 'orangered'
+COLOR1 = 'darkorchid'
 COLOR2 = 'white'
 COLOR3 = 'dodgerblue'
 COLOR4 = 'turquoise'
@@ -102,7 +101,7 @@ CONTACTFANART = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE = 'Yes'
 # Url to wizard version
-buildtvban = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/buildsandtv.txt' 
+buildtvban = 'https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/buildtvban/builds.txt' 
 #########################################################
 
 #########################################################
@@ -137,4 +136,3 @@ FONTSETTINGS = ''
 # Background for Notification Window
 BACKGROUND = 'https://i.imgur.com/0ciyvn4.png'
 #########################################################
-
