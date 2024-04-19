@@ -136,3 +136,4 @@ FONTSETTINGS = ''
 # Background for Notification Window
 BACKGROUND = 'https://i.imgur.com/0ciyvn4.png'
 #########################################################
+
