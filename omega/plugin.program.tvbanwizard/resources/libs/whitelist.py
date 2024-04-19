@@ -86,7 +86,7 @@ def whitelist(do):
             addonids.append(addid)
             addonfolds.append(foldername)
         selected = []
-        tempaddonnames = ["[B][COLOR orangered]-- Clic aquí para ontinuar --[/COLOR][/B]"] + addonnames
+        tempaddonnames = ["[B][COLOR orangered]-- Clic aquí para Continuar --[/COLOR][/B]"] + addonnames
         currentWhite = whitelist(do='read')
         for item in currentWhite:
             logging.log(str(item))
