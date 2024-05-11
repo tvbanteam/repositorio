@@ -29,7 +29,7 @@ description="[COLOR azure][B]TVBAN[/COLOR] [COLOR blueviolet]NEXUS[/B][/COLOR] p
 
 name="TVBan Windows"
 version="1.0"
-url="https://github.com/tvbanteam/repositorio.tvbandteam/releases/download/1.0/B.AndtvWindows.zip"
+url="https://github.com/tvbanteam/repositorio.tvbandteam/releases/download/1.0/Tvban_WWindows.zip"
 minor="http://"
 gui="http://"
 kodi="21.0"
