@@ -567,7 +567,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.9.23" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.9.24" provider-name="Alfa Addon">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.beautifulsoup4" version="4.5.3" />
@@ -617,10 +617,9 @@
             [B]Estos son los cambios para esta versión:[/B]
 
             [B]Arreglos[/B]
-            • Cuevana 3.video                                       • Don Torrent
-            • HDFull                                                          • HenaoJara
-            • PoseidonHD                                               • SoloLatino
-            • +18</news>
+            • +18                                                          • Dontorrent
+            • Doramasflix                                            • Ennovelas
+            • HDFull                                                      • Pelitorrent</news>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
