@@ -27,7 +27,7 @@ Se cerrará Kodi y ya sólo nos quedará iniciar de nuevo Kodi, darle unos minut
   
 [COLOR dodgerblue]https://t.me/+lC4ECITUPH43NTE0[/COLOR]
 
-[COLOR white][B]GRACIAS POR UTILIZAR [COLOR dodgerblue]TVBAN [COLOR dodgerblue]OMEGA![/B][/COLOR]
+[COLOR white][B]GRACIAS POR UTILIZAR [COLOR azure]TVBAN [COLOR dodgerblue]OMEGA![/B][/COLOR]
 
 BACKGROUND = 'https://i.imgur.com/0ciyvn4.png'
 
