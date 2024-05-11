@@ -522,7 +522,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.tururu" name="[B][COLOR azure]TVBAN[/COLOR] [COLOR dodgerblue]WIZARD[/COLOR][/B]" version="12.4.24" provider-name="[B][COLOR azure]andTVban, JoseAnd[/COLOR][/B]">
+<addon id="plugin.program.tvbanwizard" name="[B][COLOR azure]TVBAN[/COLOR] [COLOR dodgerblue]WIZARD[/COLOR][/B]" version="12.4.24" provider-name="[B][COLOR azure]andTVban, JoseAnd[/COLOR][/B]">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.requests" />
@@ -544,7 +544,7 @@
 [COLOR lime][B]CREDITOS:[/COLOR][/B]
 [COLOR white][B]• Developers:[/B]      [COLOR darkorange]JoseAnd[/COLOR]
 [COLOR white][B]• Testers:[/B]             [COLOR darkorange]JoseAnd, [COLOR tan]AndTVban[/COLOR]
-[COLOR white][B]• Telegram:[/B]         [COLOR dodgerblue]t.me/+buil[/COLOR]</description>
+[COLOR white][B]• Telegram:[/B]         [COLOR dodgerblue]t.me/+andTvban[/COLOR]</description>
         <disclaimer>[COLOR tan][B]Está Prohibida su distribución, cedido por su autor, editado por AndTVban y Protegidos por los Derechos del Autor y Editor.[/B][/COLOR]</disclaimer>
 		<platform>all</platform>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
@@ -553,7 +553,7 @@
 • [COLOR darkorange]12/04/2024[/COLOR]
 - Nuevo Logo
 - Inciada la compatibilidad con Versiones de Kodi.
-- Nuevo Instalador a la versión  12.4.24
+- Nuevo Instalador a la versión  14.4.24
 - Añadido nuevos arreglos:
 ¤ Limpieza de Miniaturas.     ¤ Color en Notificaciones.
 </news>
@@ -786,6 +786,31 @@
         <news>- Añadida opción de reproducción externa de playlists[CR]- Correcciones menores
         </news>
     </extension>
+</addon>
+
+<addon id="plugin.video.jacktook" name="Jacktook" version="0.2.4" provider-name="Sam-Max">
+  <requires>
+    <import addon="xbmc.python" version="3.00.0"/>
+    <import addon="script.module.requests" version="2.25.1"/>
+    <import addon="script.module.routing" version="0.2.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="jacktook.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.python.module" library="lib/api"/>
+  <extension point="xbmc.python.module" library="lib/bencodepy"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">jacktook</summary>
+    <description lang="en">Kodi addon for torrent streaming</description>
+    <license>GPL-2.0-only</license>
+    <source>https://github.com/Sam-Max/plugin.video.jacktook</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.png</fanart>
+      <screenshot>resources/screenshots/home.png</screenshot>
+      <screenshot>resources/screenshots/tv.png</screenshot>
+    </assets>
+ </extension>
 </addon>
 
 <addon id="plugin.video.kodispaintv" name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR]" version="3.4.0" provider-name="joheos11">
@@ -1214,39 +1239,6 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="repository.andTVban" name="[COLOR steelblue][B]Repo[/COLOR] [COLOR green]and[COLOR azure]TV[COLOR blueviolet]ban[/B][/COLOR]" version="19.4.24" provider-name="andTVban, JoseaTeba">
-    <extension point="xbmc.addon.repository" name="[COLOR steelblue][B]Repo[/COLOR] [COLOR green]and[COLOR azure]TV[COLOR blueviolet]ban[/B][/COLOR]">
-		<!--<dir minversion="20.0" maxversion="20.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/nexus/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/nexus/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/andtvban/repositorio.andtvban/master/nexus/zips</datadir>
-        </dir>-->
-        <dir minversion="20.9.0" maxversion="21.9.9">
-            <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
-        </dir>
-        <dir minversion="21.0" maxversion="21.9.9">
-            <info compressed="false">https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/omega/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/omega/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/tvbanteam/repositorio.tvbandteam/master/omega/zips</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR green]and[COLOR azure]TV[/COLOR] [COLOR blueviolet]ban[/COLOR]</summary>
-        <description>Repositorio de addons para [COLOR azure]TVBAN[/COLOR].
-[B][COLOR lime]CREDITOS:
-[COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseaTeba[/COLOR]</description>
-        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons externos válidos para [COLOR azure]KODI 20 [COLOR blueviolet]NEXUS, KODI 21 [COLOR dodgerblue]OMEGA [/COLOR]</disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-		<source>https://andtv.github.io/tvban</source>
-    </extension>
-</addon>
-
 <addon id="repository.auramod.aio" name="Auramod Repo AIO" version="1.0" provider-name="SerpentDrago">
 	<extension point="xbmc.addon.repository" name="Auramod Repo AIO">
 		<dir minversion="18.0" maxversion="18.9.9">
@@ -1308,32 +1300,6 @@ provider-name="jurialmunkey">
     <extension point="xbmc.service" library="service.py" start="login|startup" />
 </addon>
 
-<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.2">
-    <requires>
-    </requires>
-    <extension point="xbmc.addon.repository">
-        <dir>
-            <info>http://127.0.0.1:65223/addons.xml</info>
-            <checksum>http://127.0.0.1:65223/addons.xml.md5</checksum>
-            <datadir>http://127.0.0.1:65223/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>See https://github.com/ElementumOrg/repository.elementumorg/blob/master/LICENSE</license>
-        <source>https://github.com/ElementumOrg/repository.elementumorg</source>
-        <summary lang="en">GitHub virtual Add-on repository</summary>
-        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
-        <news>
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.Mirepor" name="[COLOR blue]REPOSITORIO[/COLOR][COLOR lime] FESTA[/COLOR]" version="1.0.1" provider-name="Yo Mismo">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
@@ -1374,6 +1340,31 @@ provider-name="jurialmunkey">
             - Add spanish translation
             - Allow extracting information about running platform
         </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.jacktook" name="Jacktook Add-on Repository" provider-name="Sam-Max" version="0.0.4">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>http://127.0.0.1:64236/addons.xml</info>
+            <checksum>http://127.0.0.1:64236/addons.xml.md5</checksum>
+            <datadir>http://127.0.0.1:64236/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/Sam-Max/repository.jacktook/blob/master/LICENSE</license>
+        <source>https://github.com/Sam-Max/repository.jacktook</source>
+        <summary lang="en">Jacktook Repository</summary>
+        <description lang="en">Jacktook Repository for Jacktook Addon.</description>
         <assets>
             <icon>icon.png</icon>
         </assets>
@@ -1650,23 +1641,54 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.2" provider-name="sualfred,marcelveldt">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-	</requires>
-	<extension point="xbmc.python.library" library="default.py" />
+<addon id="script.otaku.mappings" version="24.02.0" name="Otaku Mappings" provider-name="TeamOtaku">
+    <extension point="xbmc.python.module" library="lib"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
-		<description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
-		<platform>all</platform>
-		<license>GPL-2.0</license>
-		<forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
-		<source>https://github.com/kodi-community-addons/script.skin.helper.colorpicker</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-	</extension>
+        <summary>Anime ID Mappings for Otaku Addon</summary>
+        <description>Mappings for Otaku are maintained separately to make distribution of the the addon itself easier/faster.</description>
+        <platform>all</platform>
+        <license>GPL-2.0</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.auramod.andtvban" version="1.1.11" name="[COLOR azure]Auramod[/COLOR][COLOR darkviolet]TVBAN[/COLOR]" provider-name="Auramod, [COLOR darkviolet]andTVban, JoseAnd[/COLOR]">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0"/>
+        <import addon="script.skin.helper.service" version="1.1.24"/>
+        <import addon="script.skin.helper.widgets" version="1.0.0"/>
+        <import addon="script.skinshortcuts" version="2.0.3"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+        <import addon="resource.images.studios.white" version="0.0.30"/>
+        <import addon="resource.images.studios.coloured" version="0.0.18"/>
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
+		<import addon="script.colorbox" version="2.0.8"/>
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">[COLOR azure]Mod[/COLOR] [COLOR darkviolet]TVBAN[/COLOR] [COLOR azure]de Auramod.andtvban para Kodi 21 / Omega Minimalista, Personalizable, Multiple Widgets.[/COLOR] </summary>
+        <description lang="es">Mod [COLOR darkviolet]TVBAN[/COLOR] de AuraMod. Esta versión de Aura está basada para todos los usuarios. Editado por José Andrés</description>
+		<news>[COLOR tan]Nuevos cambios:[/COLOR]
+		- Skin modificada por [COLOR darkviolet]JoseAnd[/COLOR] para Kodi 21 Omega andTVban.
+		</news>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+        </assets>
+    </extension>
 </addon>
 </addons>
