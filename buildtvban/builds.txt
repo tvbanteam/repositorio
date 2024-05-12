@@ -1,6 +1,6 @@
-name="TVBan Nvidia"
+name="TVBan_Nvidia"
 version="1.0"
-url="https://github.com/tvbanteam/repositorio.tvbandteam/releases/download/1.0/Tvban_NNvidia.zip"
+url="https://github.com/tvbanteam/repositorio.tvbandteam/releases/download/1.0/Tvban_Nv.zip"
 minor="http://"
 gui="http://"
 kodi="21.0"
